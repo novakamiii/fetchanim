@@ -1,11 +1,11 @@
-# fetchanim
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ed2231f7-eab8-4fe1-825e-d1ba2720dcfa" /># fetchanim
 
 > Disclaimer: This project is purely made by AI (not really familiar with what I am doing so I got help from Claude), I just want to find a way to put a GIF in my fastfetch config.
 
 A simple shell script that displays animated GIFs alongside system information using Kitty terminal's native image rendering capability and fastfetch.
 
 <p align="center">
-  <img src="./preview.png" alt="Kitty-Fetch Preview">
+  <img src=".https://github.com/novakamiii/Images-for-my-repo-thumbnails/blob/master/1-30-26/fetchanim.gif?raw=true" alt="fetchanim Preview">
 </p>
 
 ## ✨ Features
