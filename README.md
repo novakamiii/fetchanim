@@ -9,7 +9,11 @@ A simple shell script that displays animated GIFs alongside system information u
 </p>
 
 <p align="center"> I mispelled vacation LOL </p>
-
+<div align="center">
+  <p>Animation by: <strong>赤鬼</strong></p>
+  
+  [![Twitter](https://img.shields.io/badge/Twitter-@akakiryu2ml-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/akakiryu2ml)
+</div>
 ## ✨ Features
 
 - **Native GIF rendering** using Kitty terminal's `icat` kitten
