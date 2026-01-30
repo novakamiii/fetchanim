@@ -81,7 +81,7 @@ Add to your `~/.zshrc`:
 ```bash
 # Run kitty-fetch on terminal startup
 if [[ "$TERM" == "xterm-kitty" ]]; then
-    /path/to/kitty-fetch
+    /path/to/fetchanim
 fi
 ```
 
