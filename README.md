@@ -8,6 +8,8 @@ A simple shell script that displays animated GIFs alongside system information u
   <img src="https://github.com/novakamiii/Images-for-my-repo-thumbnails/blob/master/1-30-26/fetchanim.gif?raw=true"  alt="fetchanim Preview">
 </p>
 
+<p align="center"> I mispelled vacation LOL </p>
+
 ## ✨ Features
 
 - **Native GIF rendering** using Kitty terminal's `icat` kitten
