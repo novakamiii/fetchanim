@@ -14,6 +14,7 @@ A simple shell script that displays animated GIFs alongside system information u
   
   [![Twitter](https://img.shields.io/badge/Twitter-@akakiryu2ml-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/akakiryu2ml)
 </div>
+
 ## ✨ Features
 
 - **Native GIF rendering** using Kitty terminal's `icat` kitten
