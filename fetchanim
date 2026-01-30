@@ -1,0 +1,32 @@
+#!/bin/zsh
+# kitty-fetch - Display GIFs alongside fastfetch in Kitty terminal
+# https://github.com/yourusername/kitty-fetch
+
+# Configuration
+GIF_PATH="/home/nova/Pictures/brrtfetch/gifs/wuwa/zani.gif"
+IMG_WIDTH=30      # Width in terminal columns (adjust to your preference)
+VERTICAL_OFFSET=2 # How many lines down to position the image (adjust to align with text)
+
+# Clear screen for clean display
+clear
+
+# Get fastfetch output with colors preserved
+FETCH_OUTPUT=$(fastfetch --logo-type none --pipe false)
+
+# Count lines in fastfetch output for dynamic height matching
+FETCH_LINES=$(echo "$FETCH_OUTPUT" | wc -l)
+
+# Display image with height matching fastfetch and vertical offset
+kitty +kitten icat --place "${IMG_WIDTH}x${FETCH_LINES}@0x${VERTICAL_OFFSET}" "$GIF_PATH" 
+
+# Calculate offset for text placement (image width + spacing)
+OFFSET=$((IMG_WIDTH + 3))
+printf "\033[0;${OFFSET}H"
+
+# Print fastfetch line by line at the correct position
+echo "$FETCH_OUTPUT" | while IFS= read -r line; do
+    printf "%s\n\033[${OFFSET}G" "$line"
+done
+
+# Clean up - move to bottom and clear any artifacts
+printf "\033[%d;0H\033[K\n" $((FETCH_LINES + 1))
