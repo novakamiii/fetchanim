@@ -1,4 +1,4 @@
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ed2231f7-eab8-4fe1-825e-d1ba2720dcfa" /># fetchanim
+# fetchanim
 
 > Disclaimer: This project is purely made by AI (not really familiar with what I am doing so I got help from Claude), I just want to find a way to put a GIF in my fastfetch config.
 
