@@ -83,6 +83,10 @@ fi
 # Add this to the very top:
 
 /home/$USER/(DIR where you cloned it...)/fetchanim/fetchanim
+
+#Or if you added it in PATH
+
+fetchanim
 ```
 
 ## ⚙️ Configuration
