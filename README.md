@@ -5,7 +5,7 @@
 A simple shell script that displays animated GIFs alongside system information using Kitty terminal's native image rendering capability and fastfetch.
 
 <p align="center">
-  <img src=".https://github.com/novakamiii/Images-for-my-repo-thumbnails/blob/master/1-30-26/fetchanim.gif?raw=true" alt="fetchanim Preview">
+  <img src="https://github.com/novakamiii/Images-for-my-repo-thumbnails/blob/master/1-30-26/fetchanim.gif?raw=true"  alt="fetchanim Preview">
 </p>
 
 ## ✨ Features
