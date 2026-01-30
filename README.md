@@ -57,15 +57,6 @@ chmod +x fetchanim
 sudo cp fetchanim /usr/local/bin/
 ```
 
-### OPTIONAL: If you use fish
-
-```bash
-# In ./home/$USER/.config/fish/config.fish
-# Add this to the very top:
-
-/home/$USER/(DIR where you cloned it...)/fetchanim/fetchanim
-```
-
 ### Custom GIF Path
 
 Edit the script and change the `GIF_PATH` variable:
@@ -79,10 +70,19 @@ GIF_PATH="/path/to/your/favorite.gif"
 Add to your `~/.zshrc`:
 
 ```bash
-# Run kitty-fetch on terminal startup
+# Run fetchanim on terminal startup
 if [[ "$TERM" == "xterm-kitty" ]]; then
     /path/to/fetchanim
 fi
+```
+
+### OPTIONAL: If you use fish
+
+```bash
+# In ./home/$USER/.config/fish/config.fish
+# Add this to the very top:
+
+/home/$USER/(DIR where you cloned it...)/fetchanim/fetchanim
 ```
 
 ## ⚙️ Configuration
