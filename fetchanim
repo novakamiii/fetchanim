@@ -1,6 +1,4 @@
 #!/bin/zsh
-# kitty-fetch - Display GIFs alongside fastfetch in Kitty terminal
-# https://github.com/yourusername/kitty-fetch
 
 # Configuration
 GIF_PATH="/home/nova/Pictures/brrtfetch/gifs/wuwa/zani.gif"
